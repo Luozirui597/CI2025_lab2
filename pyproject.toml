@@ -1,0 +1,16 @@
+[project]
+name = "ci2025-lab2-review1"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "icecream>=2.1.8",
+    "numpy>=2.3.4",
+    "tqdm>=4.67.1",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.1.0",
+]
